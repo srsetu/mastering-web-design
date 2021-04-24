@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML Form</title>
+    </head>
+    <body>
+        <h3>Registration Form</h3>
+        <form action="">
+            <label for="firstname">First Name</label>
+            <input
+                type="text"
+                name="firstname"
+                id="firstname"
+                placeholder="Your first name"
+            />
+            <br />
+            <label for="secondname">Second Name</label>
+            <input
+                type="text"
+                name="secondname"
+                id="secondname"
+                placeholder="Your Second Name"
+            /><br />
+            <label for="email">Email</label>
+            <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+            /><br />
+            <label for="phonenumber">Phone Number</label>
+            <input
+                type="number"
+                name="phonenumber"
+                id="phonenumber"
+                placeholder="Your Phone Number"
+            /><br />
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" /><br />
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">Male</label><br />
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">Female</label><br />
+            <input type="radio" name="gender" id="other" value="other" />
+            <label for="other">Others</label><br />
+            <input
+                type="checkbox"
+                name="language1"
+                id="language1"
+                value="html"
+            />
+            <label for="language1">HTML</label><br />
+            <input
+                type="checkbox"
+                name="language2"
+                id="language2"
+                value="css"
+            />
+            <label for="language1">CSS</label><br />
+            <input
+                type="checkbox"
+                name="language3"
+                id="language3"
+                value="JavaScript"
+                checked
+            />
+            <label for="language1">JavaScript</label><br />
+            <label for="district">Your District</label>
+            <select name="district" id="district">
+                <option value="dhaka">Dhaka</option>
+                <option value="manikganj">Manikganj</option>
+                <option value="faridpur">Faridpur</option>
+            </select>
+
+            <input type="button" value="Submit" />
+        </form>
+
+        <h3>Login Form</h3>
+        <form action="">
+            <label for="loginemail">Email</label>
+            <input type="email" name="loginemail" id="loginemail" /><br />
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" /><br />
+            <input type="submit" value="Login" />
+        </form>
+    </body>
+</html>
