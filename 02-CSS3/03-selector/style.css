@@ -1,0 +1,39 @@
+/*
+1. Universal Selector -> * {}
+2. Tag Selector -> tag {}
+3. Class Selector -> .class {}
+4. ID Selector -> #id {}
+5. Attribute Selector -> [attribute] {}
+*/
+
+/* Universal Selector */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Tag Selector */
+
+/* button {
+    color: red;
+} */
+
+/* Class Selector */
+
+/* .paragraph {
+    color: red;
+} */
+
+/* ID Selector */
+
+/* #btn {
+    color: orange;
+} */
+
+/* attribute selector */
+
+/* [title] {
+    color: blue;
+    border: 2px solid blue;
+} */
