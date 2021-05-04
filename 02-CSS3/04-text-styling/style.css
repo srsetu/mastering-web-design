@@ -1,0 +1,31 @@
+@font-face {
+    font-family: MrsMonster;
+    src: url(./fonts/mrsmonsterleft.ttf);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    /* font-style: italic; */
+    text-transform: uppercase;
+    /* letter-spacing: 5px; */
+    font-size: 16px;
+    word-spacing: 25px;
+    line-height: 50px;
+    direction: rtl;
+    text-shadow: 2px 2px 5px red;
+    font-family: MrsMonster;
+}
+.google-font {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+    direction: rtl;
+}

@@ -1,0 +1,22 @@
+/*
+Descendant Selector (space)
+Child Selector (>)
+Adjacent Sibling Selector (+)
+General Sibling Selector (~)
+*/
+
+/* .parent p {
+    color: red;
+}
+
+.parent > p {
+    color: aqua;
+} */
+
+/* h1 + p {
+    color: red;
+} */
+
+h1 ~ p {
+    color: orange;
+}
