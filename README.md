@@ -15,4 +15,6 @@ Mastering Web Design is a <a href="https://jsbd.link/mwd">Premium Course</a> by 
 
 For more details and registration <a href="https://jsbd.link/mwd">Click Here</a>
 
+Approximate release: June 2021
+
 [1]: (https://jsbangladesh.com)
