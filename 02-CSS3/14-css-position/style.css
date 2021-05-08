@@ -1,0 +1,39 @@
+/*
+Absolute Position - Removed from document flow
+Fixed Position - 
+Relative Position
+Sticky
+*/
+
+body {
+    background-color: gray;
+    height: 2000px;
+}
+section {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 500px;
+}
+
+.child-1 {
+    background-color: indianred;
+    width: 150px;
+    height: 150px;
+    /* position: relative;
+    left: 50px;
+    top: 50px; */
+    /* position: fixed;
+    top: 50%;
+    left: 0; */
+
+    position: sticky;
+    left: 0;
+    top: 50px;
+}
+
+.child-2 {
+    background-color: indigo;
+    width: 150px;
+    height: 150px;
+}

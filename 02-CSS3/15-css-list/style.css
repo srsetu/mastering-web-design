@@ -1,0 +1,53 @@
+/* ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: url(./rsz_list-icon.png);
+}
+
+li {
+    border: 1px solid black;
+    background-color: indigo;
+    color: rgb(241, 66, 66);
+} */
+
+ul.navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul.navigation li {
+    background-color: indianred;
+    position: relative;
+}
+
+ul.navigation li:hover {
+    background-color: rgb(199, 49, 49);
+}
+
+ul.navigation li.active {
+    background-color: rgb(199, 49, 49);
+}
+
+ul.navigation li a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul.dropdown {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+ul.navigation li:hover ul.dropdown {
+    display: block;
+}
