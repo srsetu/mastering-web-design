@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div {
+    width: 80vh;
+    /* transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+    /* 
+    transition: all 0.5s ease-in 1s; */
+}
+
+/* div:hover {
+    border-radius: 50%;
+    background-color: chocolate;
+} */
+
+input {
+    width: 150px;
+    padding: 20px;
+    transition: width 0.5s ease-in;
+}
+
+input:focus {
+    width: 500px;
+}
