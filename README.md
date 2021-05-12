@@ -6,10 +6,10 @@ Mastering Web Design is a <a href="https://jsbd.link/mwd">Premium Course</a> by 
 
 -   HTML5
 -   CSS3
--   BEM Methodology
--   Bootstrap
--   JavaScript
+-   JavaScript Fundamentals
 -   jQuery
+-   Bootstrap 5
+-   BEM Methodology
 -   SCSS
 -   Git and GitHub
 
