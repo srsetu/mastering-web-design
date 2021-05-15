@@ -1,0 +1,35 @@
+/* max-width: 500px ==> anything < 500px 
+min-width: 500px ==> anything > 500px
+*/
+
+/* @media all and (min-width: 500px) {
+    h1 {
+        color: orange;
+    }
+}
+
+@media all and (min-width: 992px) {
+    h1 {
+        color: green;
+        text-transform: uppercase;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    h1 {
+        color: red;
+        font-weight: bold;
+    }
+} */
+
+/* Large Phone */
+@media (max-width: 48em) {
+}
+
+/* Tablet */
+@media (max-width: 62em) {
+}
+
+/* Desktop */
+@media (max-width: 75em) {
+}
