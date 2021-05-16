@@ -1,0 +1,85 @@
+/*
+container
+1. display
+2. flex-direction
+3. flex-wrap
+3+4. flex-flow
+4. align-items // cross axis
+5. align-contents
+6. justify-content // main axis
+
+
+item
+1. flex-grow
+2. flex-shrink
+3. flex-basis
+*. flex
+4. align-self
+5. order
+
+*/
+
+section {
+    background: darkgrey;
+    border: 1px solid black;
+    width: 50vw;
+    display: flex;
+}
+
+main {
+    background: darkseagreen;
+    color: #fff;
+    flex: 3;
+}
+aside {
+    background: darkslategray;
+    color: #fff;
+    flex: 1;
+}
+
+div.form {
+    width: 600px;
+    background: darkgray;
+    border: 1px solid black;
+}
+.form-control {
+    display: flex;
+}
+.form-control input {
+    flex: 1;
+}
+.container {
+    background-color: azure;
+    height: 30vh;
+    border: 3px solid #000;
+    display: flex;
+}
+
+.container > * {
+    flex-basis: 100%;
+}
+
+.child-1 {
+    min-height: 100px;
+
+    background-color: cadetblue;
+}
+.child-2 {
+    min-height: 150px;
+
+    background-color: sandybrown;
+}
+.child-3 {
+    min-height: 200px;
+
+    background-color: rebeccapurple;
+}
+.child-4 {
+    min-height: 100px;
+    background-color: chocolate;
+    order: 1;
+}
+.child-5 {
+    background: cornflowerblue;
+    min-height: 100px;
+}
