@@ -1,0 +1,11 @@
+:root {
+    --red: rgb(129, 38, 38);
+    --large-font: 58px;
+    --light: gray;
+}
+
+.container h1 {
+    background: var(--light);
+    color: var(--red);
+    font-size: var(--large-font);
+}

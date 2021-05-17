@@ -1,0 +1,90 @@
+a:link {
+    color: sienna;
+}
+a:active {
+    color: yellow;
+}
+a:hover {
+    background-color: slategray;
+    color: #fff;
+    padding: 5px;
+}
+a:visited {
+    color: green;
+}
+
+input:checked {
+    width: 20px;
+    height: 20px;
+}
+
+input:disabled {
+    background-color: tomato;
+}
+p:empty {
+    width: 20px;
+    height: 20px;
+    background-color: violet;
+}
+input[type='text']:enabled {
+    background-color: yellow;
+}
+li:last-child {
+    color: red;
+}
+/* p:last-of-type {
+    color: red;
+} */
+input#text:focus {
+    background-color: white;
+    outline: none;
+    border: 5px solid green;
+}
+
+input[type='number'] {
+    background-color: rgb(228, 57, 57);
+}
+
+input[type='number']:in-range {
+    background-color: seagreen;
+}
+input[type='number']:out-of-range {
+    background-color: rgb(0, 0, 0);
+}
+/* p:not(.test) {
+    color: orange;
+} */
+
+li:nth-child(2n) {
+    background-color: skyblue;
+}
+/* p:nth-of-type(3) {
+    color: red;
+}
+p:only-child {
+    background-color: red;
+    color: #fff;
+} */
+input[type='text']:required {
+    background-color: tomato;
+}
+input[type='text']:optional {
+    background-color: violet;
+}
+input[type='text']:read-only {
+    background-color: black;
+    color: #fff;
+}
+:root {
+    --light: rgb(190, 190, 190);
+}
+:target {
+    background-color: blueviolet;
+    color: #fff;
+}
+#custom-email {
+    background-color: crimson;
+}
+#custom-email:valid {
+    background-color: green;
+}
