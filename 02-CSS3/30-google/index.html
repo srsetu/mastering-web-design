@@ -4,49 +4,150 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Google Home Page Clone</title>
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        />
+        <title>Google Home Page</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div class="top-bar">
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <img src="./img/menu.png" alt="Menu Bar" class="dot" />
-            <img src="./img/icon.jpg" alt="Profile Icon" class="profile" />
-        </div>
-        <main>
-            <div class="search-section">
-                <img src="./img/logo.png" alt="" />
-                <div class="search">
-                    <i class="fas fa-search"></i>
-                    <input type="text" name="" id="" />
-                    <button class="btn">Google Search</button>
-                    <button class="btn">I'm Feeling Lucky</button>
-                    <p>Google offered in: <a href="#">বাংলা</a></p>
-                </div>
+        <div class="section">
+            <div class="section__container">
+                <!--Navigation-->
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Gmail</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">images</a>
+                        </li>
+                        <li class="nav__item nav__item--app">
+                            <svg
+                                id="Layer_1"
+                                data-name="Layer 1"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 100 100"
+                            >
+                                <rect x="37" width="26" height="26" />
+                                <rect width="26" height="26" />
+                                <rect x="74" width="26" height="26" />
+                                <rect x="37" y="37" width="26" height="26" />
+                                <rect y="37" width="26" height="26" />
+                                <rect x="74" y="37" width="26" height="26" />
+                                <rect x="37" y="74" width="26" height="26" />
+                                <rect y="74" width="26" height="26" />
+                                <rect x="74" y="74" width="26" height="26" />
+                            </svg>
+                        </li>
+                        <li class="nav__item nav__item--profile">
+                            <img src="./img/icon.jpg" alt="" />
+                        </li>
+                    </ul>
+                </nav>
+                <!--End Navigation-->
+
+                <!-- Main Section -->
+                <main class="main">
+                    <div class="main__logo">
+                        <img src="./img/logo.png" alt="Google Logo" />
+                    </div>
+                    <div class="main__input">
+                        <form action="" class="main__form">
+                            <div class="form__group">
+                                <div class="form__logo--search">
+                                    <svg
+                                        focusable="false"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="form__search">
+                                    <input
+                                        type="text"
+                                        name="search"
+                                        id="search"
+                                    />
+                                </div>
+                                <div class="form__logo--mic">
+                                    <svg
+                                        class="HPVvwb"
+                                        focusable="false"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"
+                                            fill="#4285f4"
+                                        ></path>
+                                        <path
+                                            d="m11 18.08h2v3.92h-2z"
+                                            fill="#34a853"
+                                        ></path>
+                                        <path
+                                            d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"
+                                            fill="#f4b400"
+                                        ></path>
+                                        <path
+                                            d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"
+                                            fill="#ea4335"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End Search Section -->
+                    <div class="button">
+                        <button class="button__search">Google Search</button>
+                        <button class="button__lucky">I'm Feeling Lucky</button>
+                    </div>
+                </main>
+                <!-- End Main -->
+
+                <!-- Footer -->
+                <footer class="footer">
+                    <div class="footer__top">
+                        <p class="footer__text">Bangladesh</p>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__navigation">
+                            <ul class="footer__nav">
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">About</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link"
+                                        >Advertising</a
+                                    >
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Business</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link"
+                                        >How Search works</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__navigation">
+                            <ul class="footer__nav">
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Privacy</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Terms</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Settings</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
             </div>
-            <footer>
-                <div class="footer-top">
-                    <p>Bangladesh</p>
-                </div>
-                <div class="footer-bottom">
-                    <div>
-                        <a href="#">About</a>
-                        <a href="#">Advertising</a>
-                        <a href="#">Business</a>
-                        <a href="#">How Search works</a>
-                    </div>
-                    <div>
-                        <a href="#">Privacy</a>
-                        <a href="#">Terms</a>
-                        <a href="#">Setting</a>
-                    </div>
-                </div>
-            </footer>
-        </main>
+        </div>
     </body>
 </html>
