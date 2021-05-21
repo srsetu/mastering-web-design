@@ -1,0 +1,16 @@
+@mixin circle($width, $height) {
+    @if ($width == $height) {
+        border-radius: 50%;
+        width: $width;
+        height: $height;
+    } @else {
+        border-radius: 15px;
+        width: $width;
+        height: $height;
+    }
+}
+
+h1 {
+    background-color: salmon;
+    @include circle(25px, 25px);
+}

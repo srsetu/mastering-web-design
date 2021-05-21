@@ -1,0 +1,39 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+  background-color: cadetblue;
+  color: #fff;
+}
+
+.main {
+  padding: 50px;
+  background-color: rebeccapurple;
+}
+
+.main .main__paragraph {
+  color: #fff;
+}
+
+.main .main__link {
+  display: inline-block;
+  padding: 15px;
+  background-color: salmon;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main .main__link:hover {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

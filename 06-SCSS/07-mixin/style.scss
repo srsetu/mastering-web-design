@@ -1,0 +1,27 @@
+@mixin navStyle($margin, $padding) {
+    margin: $margin;
+    padding: $padding;
+    list-style: none;
+}
+
+@mixin border-radius($val) {
+    -webkit-border-radius: $val;
+    -moz-border-radius: $val;
+    border-radius: $val;
+}
+
+.header-navigation {
+    ul {
+        @include navStyle(0, 0);
+        li {
+            @include border-radius(50px);
+            background-color: bisque;
+        }
+    }
+}
+
+.footer-navigation {
+    ul {
+        @include navStyle(10, 0);
+    }
+}

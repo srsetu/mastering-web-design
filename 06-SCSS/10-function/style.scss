@@ -1,0 +1,15 @@
+$section-width: 1200;
+
+@function oneFourth($value) {
+    @return ($value / 4) + px;
+}
+
+section {
+    width: $section-width + px;
+}
+
+div {
+    background-color: rebeccapurple;
+    height: 250px;
+    width: oneFourth($section-width);
+}
