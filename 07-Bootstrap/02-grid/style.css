@@ -1,0 +1,11 @@
+.article {
+    background-color: slategray;
+    color: #fff;
+}
+
+.sidebar {
+    background-color: teal;
+}
+.sidebar a {
+    color: #fff;
+}

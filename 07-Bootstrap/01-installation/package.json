@@ -1,0 +1,22 @@
+{
+  "name": "source-code",
+  "version": "1.0.0",
+  "description": "<img src=\"./01-html5/mastering-web-designs.jpg\" style=\"border: 1px solid #000\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srsetu/mastering-web-design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srsetu/mastering-web-design/issues"
+  },
+  "homepage": "https://github.com/srsetu/mastering-web-design#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}
